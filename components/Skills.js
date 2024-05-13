@@ -38,9 +38,9 @@ const Skills = () => {
                 data-wow-duration=".7s"
               >
                 <p className="text-[#bbb]">
-                  For more than 20 years our experts have been accomplishing
-                  enough with modern Web Development, new generation web and app
-                  programming language.
+                  For more than 2.5 years, I've been deeply immersed in modern
+                  web development, mastering cutting-edge programming languages
+                  for both web and blockchain applications.
                 </p>
               </div>
               <div
@@ -50,7 +50,7 @@ const Skills = () => {
               >
                 <div className="progress_inner" data-value={95}>
                   <span>
-                    <span className="label">HTML &amp; CSS</span>
+                    <span className="label">HTML &amp; CSS </span>
                     <span className="number">95%</span>
                   </span>
                   <div className="background">
@@ -70,9 +70,35 @@ const Skills = () => {
                     </div>
                   </div>
                 </div>
+
+                <div className="progress_inner" data-value={80}>
+                  <span>
+                    <span className="label">TypeScript</span>
+                    <span className="number">80%</span>
+                  </span>
+                  <div className="background">
+                    <div className="bar">
+                      <div className="bar_in" />
+                    </div>
+                  </div>
+                </div>
                 <div className="progress_inner" data-value={90}>
                   <span>
-                    <span className="label">WordPress</span>
+                    <span className="label">ReactJS &amp; NextJS </span>
+                    <span className="number">90%</span>
+                  </span>
+                  <div className="background">
+                    <div className="bar">
+                      <div className="bar_in" />
+                    </div>
+                  </div>
+                </div>
+
+                <div className="progress_inner" data-value={90}>
+                  <span>
+                    <span className="label">
+                      NodeJS &amp; ExpressJS &amp; NestJs{' '}
+                    </span>
                     <span className="number">90%</span>
                   </span>
                   <div className="background">

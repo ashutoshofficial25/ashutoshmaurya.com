@@ -84,7 +84,7 @@ const Hero = () => {
                 />
                 <div
                   className="main absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-[400ms]"
-                  data-img-url="assets/img/hero/1.jpg"
+                  data-img-url="assets/img/hero/card.jpg"
                 />
                 <div className="shape" />
               </div>
