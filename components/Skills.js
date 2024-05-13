@@ -1,7 +1,7 @@
-"use client";
-import { kuraUtilit } from "@/utility";
-import { jarallax, jarallaxVideo } from "jarallax";
-import { useEffect } from "react";
+'use client';
+import { kuraUtilit } from '@/utility';
+import { jarallax, jarallaxVideo } from 'jarallax';
+import { useEffect } from 'react';
 
 const Skills = () => {
   useEffect(() => {
@@ -10,15 +10,15 @@ const Skills = () => {
 
   useEffect(() => {
     jarallaxVideo();
-    jarallax(document.querySelectorAll(".jarallax"), {
+    jarallax(document.querySelectorAll('.jarallax'), {
       speed: 0.2,
-      videoSrc: "https://www.youtube.com/watch?v=7e90gBu4pas",
+      videoSrc: 'https://www.youtube.com/watch?v=7e90gBu4pas',
     });
   });
 
   return (
     <div
-      className="kura_tm_section w-full h-auto clear-both float-left"
+      className="ashu_tm_section w-full h-auto clear-both float-left"
       id="skills"
     >
       <div className="kura_tm_skills w-full h-auto clear-both float-left relative px-0 pt-[140px] pb-[150px]">
@@ -87,7 +87,7 @@ const Skills = () => {
               className="right w-[40%] absolute right-0 top-0 bottom-[-220px] overflow-hidden"
               data-background-style="image"
             >
-              {" "}
+              {' '}
               {/* Background Styles: "video" and "image" // Also you can use any youtube, vimeo, and local videos */}
               <div
                 className="my_video absolute inset-0 jarallax"

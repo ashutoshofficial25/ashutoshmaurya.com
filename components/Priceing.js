@@ -1,7 +1,7 @@
 const Priceing = () => {
   return (
     <div
-      className="kura_tm_section w-full h-auto clear-both float-left"
+      className="ashu_tm_section w-full h-auto clear-both float-left"
       id="price"
     >
       <div className="kura_tm_pricing w-full h-auto clear-both float-left px-0 pt-[80px] pb-[150px] bg-[#f9f9f9]">

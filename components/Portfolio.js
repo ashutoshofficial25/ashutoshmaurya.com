@@ -1,9 +1,9 @@
-"use client";
-import { context } from "@/context/context";
-import { kuraUtilit } from "@/utility";
-import { portfolioSlider } from "@/utility/sliderProps";
-import { useContext, useEffect } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
+'use client';
+import { context } from '@/context/context';
+import { kuraUtilit } from '@/utility';
+import { portfolioSlider } from '@/utility/sliderProps';
+import { useContext, useEffect } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
 const Portfolio = () => {
   useEffect(() => {
     kuraUtilit.dataImage();
@@ -14,7 +14,7 @@ const Portfolio = () => {
 
   return (
     <div
-      className="kura_tm_section w-full h-auto clear-both float-left"
+      className="ashu_tm_section w-full h-auto clear-both float-left"
       id="portfolio"
     >
       <div className="kura_tm_portfolio w-full h-auto clear-both float-left px-0 pt-[140px] pb-[138px]">
@@ -155,7 +155,7 @@ const Portfolio = () => {
                       onClick={(e) => {
                         e.preventDefault();
                         modalToggle(true);
-                        setPortfolioModal("item");
+                        setPortfolioModal('item');
                       }}
                     />
                   </div>

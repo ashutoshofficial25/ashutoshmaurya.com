@@ -1,7 +1,7 @@
 const TimeLine = () => {
   return (
     <div
-      className="kura_tm_section w-full h-auto clear-both float-left"
+      className="ashu_tm_section w-full h-auto clear-both float-left"
       id="timeline"
     >
       <div className="kura_tm_timeline w-full h-auto clear-both float-left px-0 pt-[140px] pb-[113px]">

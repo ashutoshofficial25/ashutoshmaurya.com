@@ -1,29 +1,29 @@
-"use client";
-import { context } from "@/context/context";
-import { useContext } from "react";
+'use client';
+import { context } from '@/context/context';
+import { useContext } from 'react';
 
 const services = [
-  { id: 1, title: "Web Development", img: "assets/img/service/1.jpg" },
-  { id: 2, title: "Digital Marketing", img: "assets/img/service/2.jpg" },
-  { id: 3, title: "Graphic Design", img: "assets/img/service/3.jpg" },
+  { id: 1, title: 'Web Development', img: 'assets/img/service/1.jpg' },
+  { id: 2, title: 'Digital Marketing', img: 'assets/img/service/2.jpg' },
+  { id: 3, title: 'Graphic Design', img: 'assets/img/service/3.jpg' },
 ];
 
 const Hero = () => {
   const { setServiceModal, modalToggle } = useContext(context);
   return (
     <div
-      className="kura_tm_section w-full h-auto clear-both float-left"
+      className="ashu_tm_section w-full h-auto clear-both float-left"
       id="home"
     >
-      <div className="kura_tm_hero w-full min-h-[100vh] float-left clear-both bg-[#f9f9f9]">
+      <div className="ashu_tm_hero w-full min-h-[100vh] float-left clear-both bg-[#f9f9f9]">
         <div className="container min-h-full">
           <div className="content w-full min-h-[100vh] flex items-center relative">
             <div className="left w-1/2 pr-[50px] relative opacity-0 invisible top-[20px] transition-all duration-[400ms]">
               <span className="name inline-block mb-[16px] text-secondary-color font-poppins font-medium">
-                Bernard Smith
+                Ashutosh Maurya
               </span>
               <h3 className="job text-[45px] font-extrabold leading-[1.4] uppercase mb-[25px]">
-                Creative Designer based in Japan
+                FullStack Developer based in India
               </h3>
               <div className="services w-full h-auto clear-both float-left mb-[35px]">
                 <ul>

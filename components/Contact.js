@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <div
-      className="kura_tm_section w-full h-auto clear-both float-left"
+      className="ashu_tm_section w-full h-auto clear-both float-left"
       id="contact"
     >
       <div className="kura_tm_contact w-full h-auto clear-both float-left bg-[#f9f9f9] px-0 pt-[140px] pb-[119px]">
@@ -111,7 +111,7 @@ const Contact = () => {
                     <textarea
                       id="message"
                       placeholder="Message"
-                      defaultValue={""}
+                      defaultValue={''}
                     />
                   </div>
                   <div className="kura_tm_button" data-position="left">
