@@ -20,17 +20,17 @@ const TimeLine = () => {
               >
                 <div className="list_inner w-1/3 float-left pr-[40px]">
                   <span className="inline-block text-[18px]">
-                    April, 2019 - Today
+                    July, 2023 - Today
                   </span>
                 </div>
                 <div className="list_inner w-1/3 float-left pr-[40px]">
                   <span className="inline-block text-[18px] text-black">
-                    Head Designer &amp; Co-founder
+                    FullStack Developer (MERN)
                   </span>
                 </div>
                 <div className="list_inner w-1/3 float-left">
                   <span className="inline-block text-[18px]">
-                    Alan Klein Design, London
+                    BKS MyGold - Lucknow, UP , India
                   </span>
                 </div>
               </li>
@@ -41,17 +41,17 @@ const TimeLine = () => {
               >
                 <div className="list_inner w-1/3 float-left pr-[40px]">
                   <span className="inline-block text-[18px]">
-                    September, 2018 - April, 2019
+                    April, 2022 - June, 2023
                   </span>
                 </div>
                 <div className="list_inner w-1/3 float-left pr-[40px]">
                   <span className="inline-block text-[18px] text-black">
-                    Creative Director &amp; Senior Designer
+                    MERN Stack Developer
                   </span>
                 </div>
                 <div className="list_inner w-1/3 float-left">
                   <span className="inline-block text-[18px]">
-                    Raxuna Poc, New York
+                    Bytescrum Techologies - Lucknow, UP , India
                   </span>
                 </div>
               </li>
@@ -62,21 +62,21 @@ const TimeLine = () => {
               >
                 <div className="list_inner w-1/3 float-left pr-[40px]">
                   <span className="inline-block text-[18px]">
-                    October, 2015 - September, 2018
+                    October, 2021 - Dec, 2021
                   </span>
                 </div>
                 <div className="list_inner w-1/3 float-left pr-[40px]">
                   <span className="inline-block text-[18px] text-black">
-                    Head Designer
+                    MERN Stack Trainee
                   </span>
                 </div>
                 <div className="list_inner w-1/3 float-left">
                   <span className="inline-block text-[18px]">
-                    Arimana Co. Ltd, Amsterdam
+                    Digipodium - Lucknow , India
                   </span>
                 </div>
               </li>
-              <li
+              {/* <li
                 className="w-full float-left px-0 pt-[27px] pb-[30px] wow fadeInUp"
                 data-wow-duration=".7s"
                 data-wow-delay=".6s"
@@ -117,7 +117,7 @@ const TimeLine = () => {
                     Simono Design Group, London
                   </span>
                 </div>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

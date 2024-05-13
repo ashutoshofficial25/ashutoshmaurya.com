@@ -17,7 +17,7 @@ const Priceing = () => {
                 </div>
                 <div className="text w-full float-left pt-[40px]">
                   <p>
-                    For more than 20 years our experts have been accomplishing
+                    For more than 2.5 years our experts have been accomplishing
                     enough with modern Web Development, new generation web and
                     app programming language.
                   </p>

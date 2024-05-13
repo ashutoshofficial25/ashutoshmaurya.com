@@ -41,7 +41,7 @@ const Portfolio = () => {
                       />
                       <div
                         className="main absolute inset-0 bg-no-repeat bg-cover bg-center rounded-[10px]"
-                        data-img-url="assets/img/portfolio/1.jpg"
+                        data-img-url="assets/img/portfolio/blog.png"
                       />
                     </div>
                     <div className="overlay absolute inset-[10px] bg-white rounded-[10px] z-[1] transition-all duration-300" />
@@ -51,14 +51,15 @@ const Portfolio = () => {
                       alt=""
                     />
                     <div className="details absolute z-[2] bottom-[41px] left-[49px] transition-all duration-300">
-                      <h3 className="text-[20px] font-bold mb-[4px]">
-                        Magic Art
-                      </h3>
-                      <span className="font-poppins">Vimeo</span>
+                      <h3 className="text-[20px] font-bold mb-[4px]">Blog</h3>
+                      <span className="font-poppins">
+                        https://blogging-hub.vercel.app/
+                      </span>
                     </div>
                     <a
+                      target="_blank"
                       className="kura_tm_full_link absolute inset-0 z-[5] popup-vimeo"
-                      href="https://vimeo.com/337292310"
+                      href="https://blogging-hub.vercel.app/"
                     />
                   </div>
                 </SwiperSlide>
@@ -72,7 +73,7 @@ const Portfolio = () => {
                       />
                       <div
                         className="main absolute inset-0 bg-no-repeat bg-cover bg-center rounded-[10px]"
-                        data-img-url="assets/img/portfolio/2.jpg"
+                        data-img-url="assets/img/portfolio/davinci.png"
                       />
                     </div>
                     <div className="overlay absolute inset-[10px] bg-white rounded-[10px] z-[1] transition-all duration-300" />
@@ -83,9 +84,9 @@ const Portfolio = () => {
                     />
                     <div className="details absolute z-[2] bottom-[41px] left-[49px] transition-all duration-300">
                       <h3 className="text-[20px] font-bold mb-[4px]">
-                        Bona Green
+                        Davinci Board Menu
                       </h3>
-                      <span className="font-poppins">Youtube</span>
+                      <span className="font-poppins">Davinci board menu</span>
                     </div>
                     <a
                       className="kura_tm_full_link absolute inset-0 z-[5] popup-youtube"
