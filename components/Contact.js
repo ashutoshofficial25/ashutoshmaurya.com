@@ -20,8 +20,7 @@ const Contact = () => {
               <div className="text w-full float-left mb-[42px]">
                 <p>
                   Please fill out the form on this section to contact with me.
-                  Or call between 9:00 a.m. and 8:00 p.m. ET, Monday through
-                  Friday
+                  Or call me anytime.
                 </p>
               </div>
               <div className="short w-full float-left">
@@ -35,7 +34,7 @@ const Contact = () => {
                         alt=""
                       />
                       <span className="text-[18px] text-black font-poppins">
-                        44 Place, Tokyo, Japan
+                        22/234, Vastu Khand, Lucknow, India
                       </span>
                     </div>
                   </li>
@@ -47,7 +46,7 @@ const Contact = () => {
                         alt=""
                       />
                       <span className="text-[18px] text-black font-poppins">
-                        +77 033 442 55 57
+                        +91 9695734655
                       </span>
                     </div>
                   </li>
@@ -59,7 +58,7 @@ const Contact = () => {
                         alt=""
                       />
                       <span className="text-[18px] text-black font-poppins">
-                        dodo@gmail.com
+                        ashutoshm9695@gmail.com
                       </span>
                     </div>
                   </li>
@@ -71,7 +70,7 @@ const Contact = () => {
                         alt=""
                       />
                       <span className="text-[18px] text-black font-poppins">
-                        www.domain.com
+                        www.ashu.thebytescode.in
                       </span>
                     </div>
                   </li>

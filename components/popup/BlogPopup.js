@@ -1,6 +1,6 @@
-import { context } from "@/context/context";
-import { useContext } from "react";
-import PopContainer from "./PopupContainer";
+import { context } from '@/context/context';
+import { useContext } from 'react';
+import PopContainer from './PopupContainer';
 const BlogPopup = () => {
   const { setBlogModal, blogModal } = useContext(context);
   return (
@@ -20,24 +20,27 @@ const BlogPopup = () => {
 
         <div className="text">
           <p>
-            Kura is a leading web design agency with an award-winning design
-            team that creates innovative, effective websites that capture your
-            brand, improve your conversion rates, and maximize your revenue to
-            help grow your business and achieve your goals.
+            As a FullStack developer, I specialize in crafting innovative and
+            impactful websites tailored to embody your brand essence, enhance
+            conversion rates, and optimize revenue generation. My expertise aims
+            to propel your business forward, aligning with your objectives and
+            fostering growth.
           </p>
           <p>
-            In today’s digital world, your website is the first interaction
-            consumers have with your business. That's why almost 95 percent of a
-            user’s first impression relates to web design. It’s also why web
-            design services can have an immense impact on your company’s bottom
-            line.
+            In the contemporary digital landscape, your website serves as the
+            initial point of contact for consumers engaging with your business.
+            This underscores the significance of web design, as nearly 95
+            percent of users' initial impressions are influenced by it.
+            Consequently, the quality of web design services can significantly
+            influence your company's financial performance.
           </p>
           <p>
-            That’s why more companies are not only reevaluating their website’s
-            design but also partnering with Kura, the web design agency that’s
-            driven more than $2.4 billion in revenue for its clients. With over
-            50 web design awards under our belt, we're confident we can design a
-            custom website that drives sales for your unique business.
+            That's why an increasing number of companies are not just rethinking
+            their website design but are also choosing to partner with Kura, the
+            web design agency known for generating over $2.4 billion in revenue
+            for its clients. With more than 50 web design awards to our name, I
+            am confident in our ability to craft a custom website that boosts
+            sales for your unique business.
           </p>
         </div>
       </div>

@@ -1,6 +1,6 @@
-"use client";
-import { kuraUtilit } from "@/utility";
-import { useEffect, useState } from "react";
+'use client';
+import { kuraUtilit } from '@/utility';
+import { useEffect, useState } from 'react';
 
 const Header = ({ dark }) => {
   const [isToggled, setToggled] = useState(false);
@@ -20,13 +20,14 @@ const Header = ({ dark }) => {
         <div className="topbar_inner w-full h-auto clear-both flex items-center justify-between py-[30px] pr-[37px] pl-[50px] transition-all duration-300">
           <div className="logo">
             <a href="#">
-              <img
+              {/* <img
                 className="max-w-[70px] max-h-[70px]"
                 src={
                   dark ? "assets/img/logo/logo.png" : "assets/img/logo/dark.png"
                 }
                 alt=""
-              />
+              /> */}
+              ASHUTOSH MAURYA
             </a>
           </div>
           <div className="menu flex items-center">
@@ -96,7 +97,7 @@ const Header = ({ dark }) => {
             >
               <div
                 className={`hamburger hamburger--slider ${
-                  isToggled ? " is-active" : ""
+                  isToggled ? ' is-active' : ''
                 }`}
               >
                 <div className="hamburger-box">

@@ -4,8 +4,8 @@ import { useContext } from 'react';
 
 const services = [
   { id: 1, title: 'Web Development', img: 'assets/img/service/1.jpg' },
-  { id: 2, title: 'Digital Marketing', img: 'assets/img/service/2.jpg' },
-  { id: 3, title: 'Graphic Design', img: 'assets/img/service/3.jpg' },
+  { id: 2, title: 'Blockchain | Defi', img: 'assets/img/service/2.jpg' },
+  { id: 3, title: 'FullStack Development', img: 'assets/img/service/3.jpg' },
 ];
 
 const Hero = () => {
@@ -54,7 +54,7 @@ const Hero = () => {
                 <ul>
                   <li className="mr-[50px] mb-[15px] py-0 inline-block">
                     <div className="list_inner flex items-center">
-                      <h3 className="text-[45px] font-semibold">10+</h3>
+                      <h3 className="text-[45px] font-semibold">2.5+</h3>
                       <span className="font-poppins pl-[15px] inline-block leading-[1.4] relative top-[-3px] text-[14px]">
                         Years of
                         <br />
@@ -64,11 +64,11 @@ const Hero = () => {
                   </li>
                   <li className="mb-[15px] py-0 inline-block">
                     <div className="list_inner flex items-center">
-                      <h3 className="text-[45px] font-semibold">3K+</h3>
+                      <h3 className="text-[45px] font-semibold">10+</h3>
                       <span className="font-poppins pl-[15px] inline-block leading-[1.4] relative top-[-3px] text-[14px]">
-                        Happy
+                        Project
                         <br />
-                        Customers
+                        Completed
                       </span>
                     </div>
                   </li>
