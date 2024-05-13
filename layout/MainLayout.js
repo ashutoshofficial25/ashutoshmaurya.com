@@ -1,12 +1,12 @@
-"use client";
-import Popup from "@/components/popup/Popup";
-import { kuraUtilit } from "@/utility";
-import { Fragment, useEffect } from "react";
-import Audio from "./Audio";
-import CopyRight from "./CopyRight";
-import Cursor from "./Cursor";
-import Settings from "./Settings";
-const KuraLayout = ({ children }) => {
+'use client';
+import Popup from '@/components/popup/Popup';
+import { kuraUtilit } from '@/utility';
+import { Fragment, useEffect } from 'react';
+import Audio from './Audio';
+import CopyRight from './CopyRight';
+import Cursor from './Cursor';
+import Settings from './Settings';
+const MainLayout = ({ children }) => {
   useEffect(() => {
     kuraUtilit.dataImage();
     kuraUtilit.imgToSVG();
@@ -37,4 +37,4 @@ const KuraLayout = ({ children }) => {
     </Fragment>
   );
 };
-export default KuraLayout;
+export default MainLayout;
