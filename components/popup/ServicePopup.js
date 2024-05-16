@@ -1,6 +1,6 @@
-import { context } from "@/context/context";
-import { useContext } from "react";
-import PopContainer from "./PopupContainer";
+import { context } from '@/context/context';
+import { useContext } from 'react';
+import PopContainer from './PopupContainer';
 const ServicePopup = () => {
   const { serviceModal, setServiceModal } = useContext(context);
   return (
@@ -19,24 +19,40 @@ const ServicePopup = () => {
         </div>
         <div class="description">
           <p>
-            Kura is a leading web design agency with an award-winning design
-            team that creates innovative, effective websites that capture your
-            brand, improve your conversion rates, and maximize your revenue to
-            help grow your business and achieve your goals.
+            As a full stack developer, I offer comprehensive services covering
+            both the front-end and back-end aspects of web development. From
+            crafting intuitive user interfaces to building robust server-side
+            architecture, I ensure that every aspect of your website functions
+            seamlessly. My expertise extends to a wide range of technologies and
+            frameworks, allowing me to tailor solutions that meet your specific
+            needs and requirements. With a focus on delivering high-quality code
+            and exceptional user experiences, I have garnered a reputation for
+            excellence among my clients.
           </p>
           <p>
-            In today’s digital world, your website is the first interaction
-            consumers have with your business. That's why almost 95 percent of a
-            user’s first impression relates to web design. It’s also why web
-            design services can have an immense impact on your company’s bottom
-            line.
+            As a blockchain developer, I specialize in leveraging decentralized
+            technologies to drive innovation and security in digital ecosystems.
+            From developing smart contracts to building decentralized
+            applications (DApps), I have the skills and expertise to bring your
+            blockchain-based projects to life. Whether you're looking to explore
+            the potential of decentralized finance (DeFi) or implement
+            blockchain solutions in your business operations, I can provide
+            customized development services that align with your goals and
+            objectives. My commitment to staying abreast of the latest
+            advancements in blockchain technology ensures that my clients
+            receive cutting-edge solutions that deliver tangible results.
           </p>
+
           <p>
-            That’s why more companies are not only reevaluating their website’s
-            design but also partnering with Kura, the web design agency that’s
-            driven more than $2.4 billion in revenue for its clients. With over
-            50 web design awards under our belt, we're confident we can design a
-            custom website that drives sales for your unique business.
+            With a track record of satisfied clients across various industries,
+            I take pride in delivering exceptional services that exceed
+            expectations. By combining my expertise as a full stack developer
+            with my proficiency in blockchain development, I offer comprehensive
+            solutions that empower businesses to thrive in today's digital
+            landscape. From conceptualization to deployment and beyond, I am
+            dedicated to providing ongoing support and guidance to ensure the
+            success of your projects. Let's collaborate to turn your vision into
+            reality and drive success together.
           </p>
         </div>
       </div>
