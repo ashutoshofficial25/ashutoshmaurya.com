@@ -162,13 +162,13 @@
   .ashu_tm_hero .short_info ul li span {
     @apply small:text-[13px];
   }
-  .kura_tm_portfolio .portfolio_list .svg {
+  .ashu_tm_portfolio .portfolio_list .svg {
     @apply small:w-[35px] small:h-[35px] small:top-[33px] small:right-[32px];
   }
-  .kura_tm_portfolio .portfolio_list .details {
+  .ashu_tm_portfolio .portfolio_list .details {
     @apply small:bottom-[31px] small:left-[39px];
   }
-  .kura_tm_portfolio .portfolio_list .details h3 {
+  .ashu_tm_portfolio .portfolio_list .details h3 {
     @apply small:text-[18px];
   }
   .kura_tm_main_title h3 {

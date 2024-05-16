@@ -97,10 +97,10 @@ body.dark .ashu_tm_hero .down a {
 body.dark .ashu_tm_hero .down a:hover {
   color: var(--secondary-color);
 }
-body.dark .kura_tm_portfolio .portfolio_list .overlay {
+body.dark .ashu_tm_portfolio .portfolio_list .overlay {
   background-color: #494b50;
 }
-body.dark .kura_tm_portfolio .portfolio_list .svg {
+body.dark .ashu_tm_portfolio .portfolio_list .svg {
   color: #fff;
 }
 body.dark .kura_tm_modalbox .main_details .detailbox .first {

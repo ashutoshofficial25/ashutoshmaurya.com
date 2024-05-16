@@ -11,7 +11,7 @@ const Priceing = () => {
               <div className="kura_tm_sticky_section">
                 <div className="kura_tm_main_title w-full h-auto clear-both float-left mt-[58px]">
                   <span className="inline-block mb-[10px] text-secondary-color font-poppins font-medium">
-                    Pricing
+                    Tech Stack
                   </span>
                   <h3 className="font-extrabold uppercase">Service Prices</h3>
                 </div>
@@ -44,7 +44,7 @@ const Priceing = () => {
                       </div>
                       <img
                         className="svg absolute left-[30px] w-[18px] h-[18px] top-1/2 translate-y-[-50%] text-secondary-color mt-[-1px] transition-all duration-300"
-                        src="assets/img/svg/wordpress.svg"
+                        src="assets/img/svg/react.svg"
                         alt=""
                       />
                     </div>

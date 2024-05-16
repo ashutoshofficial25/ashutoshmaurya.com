@@ -313,27 +313,27 @@ body.opened .ashu_tm_hero .down {
 body.opened .ashu_tm_hero .content .right .image .shape {
   transform: rotate(-6deg);
 }
-.kura_tm_portfolio .portfolio_list .overlay {
+.ashu_tm_portfolio .portfolio_list .overlay {
   opacity: 0;
   visibility: hidden;
 }
-.kura_tm_portfolio .portfolio_list .list_inner:hover .overlay {
+.ashu_tm_portfolio .portfolio_list .list_inner:hover .overlay {
   opacity: 1;
   visibility: visible;
 }
-.kura_tm_portfolio .portfolio_list .details {
+.ashu_tm_portfolio .portfolio_list .details {
   opacity: 0;
   visibility: hidden;
 }
-.kura_tm_portfolio .portfolio_list .list_inner:hover .details {
+.ashu_tm_portfolio .portfolio_list .list_inner:hover .details {
   opacity: 1;
   visibility: visible;
 }
-.kura_tm_portfolio .portfolio_list .list_inner .svg {
+.ashu_tm_portfolio .portfolio_list .list_inner .svg {
   opacity: 0;
   visibility: hidden;
 }
-.kura_tm_portfolio .portfolio_list .list_inner:hover .svg {
+.ashu_tm_portfolio .portfolio_list .list_inner:hover .svg {
   opacity: 1;
   visibility: visible;
 }
