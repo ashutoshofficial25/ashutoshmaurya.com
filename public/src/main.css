@@ -66,10 +66,10 @@
   .container {
     @apply large:max-w-[1170px];
   }
-  .kura_tm_topbar .topbar_inner {
+  .ashu_tm_topbar .topbar_inner {
     @apply large:py-[22px] large:pl-[50px] large:pr-[37px];
   }
-  .kura_tm_topbar.animate .topbar_inner {
+  .ashu_tm_topbar.animate .topbar_inner {
     @apply large:py-[18px] large:pl-[50px] large:pr-[37];
   }
   .ashu_tm_hero .content .right .image {
@@ -93,10 +93,10 @@
   .mouse-cursor {
     @apply middle:hidden;
   }
-  .kura_tm_topbar {
+  .ashu_tm_topbar {
     @apply middle:hidden;
   }
-  .kura_tm_mobile_menu {
+  .ashu_tm_mobile_menu {
     @apply middle:block;
   }
   .ashu_tm_hero {
@@ -126,28 +126,28 @@
   .ashu_tm_hero .down {
     @apply middle:hidden;
   }
-  .kura_tm_skills .right {
+  .ashu_tm_skills .right {
     @apply middle:hidden;
   }
-  .kura_tm_skills .left {
+  .ashu_tm_skills .left {
     @apply middle:w-full middle:pr-0;
   }
-  .kura_tm_pricing .pricing_inner {
+  .ashu_tm_pricing .pricing_inner {
     @apply middle:flex-col;
   }
-  .kura_tm_pricing .left {
+  .ashu_tm_pricing .left {
     @apply middle:w-full middle:pr-0;
   }
-  .kura_tm_pricing .right {
+  .ashu_tm_pricing .right {
     @apply middle:w-full middle:pl-0;
   }
-  .kura_tm_contact .contact_inner {
+  .ashu_tm_contact .contact_inner {
     @apply middle:flex-col;
   }
-  .kura_tm_contact .left {
+  .ashu_tm_contact .left {
     @apply middle:w-full middle:pr-0 middle:mb-[30px];
   }
-  .kura_tm_contact .right {
+  .ashu_tm_contact .right {
     @apply middle:w-full middle:pl-0;
   }
 
@@ -162,46 +162,46 @@
   .ashu_tm_hero .short_info ul li span {
     @apply small:text-[13px];
   }
-  .kura_tm_portfolio .portfolio_list .svg {
+  .ashu_tm_portfolio .portfolio_list .svg {
     @apply small:w-[35px] small:h-[35px] small:top-[33px] small:right-[32px];
   }
-  .kura_tm_portfolio .portfolio_list .details {
+  .ashu_tm_portfolio .portfolio_list .details {
     @apply small:bottom-[31px] small:left-[39px];
   }
-  .kura_tm_portfolio .portfolio_list .details h3 {
+  .ashu_tm_portfolio .portfolio_list .details h3 {
     @apply small:text-[18px];
   }
-  .kura_tm_main_title h3 {
+  .ashu_tm_main_title h3 {
     @apply small:text-[25px];
   }
-  .kura_tm_main_title span {
+  .ashu_tm_main_title span {
     @apply small:mb-[6px];
   }
-  .kura_tm_timeline .timeline_list ul li .list_inner {
+  .ashu_tm_timeline .timeline_list ul li .list_inner {
     @apply small:w-full small:pr-0 small:mb-[15px];
   }
-  .kura_tm_timeline .timeline_list ul li .list_inner:last-child {
+  .ashu_tm_timeline .timeline_list ul li .list_inner:last-child {
     @apply small:mb-0;
   }
-  .kura_tm_pricing .right ul li span {
+  .ashu_tm_pricing .right ul li span {
     @apply small:text-[16px];
   }
-  .kura_tm_news .news_list .list_inner .svg {
+  .ashu_tm_news .news_list .list_inner .svg {
     @apply small:w-[35px] small:h-[35px] small:top-[33px] small:right-[32px];
   }
-  .kura_tm_news .news_list .details {
+  .ashu_tm_news .news_list .details {
     @apply small:pt-0 small:pr-[30px] small:pb-[36px] small:pl-[39px];
   }
-  .kura_tm_news .news_list .details h3 {
+  .ashu_tm_news .news_list .details h3 {
     @apply small:text-[18px];
   }
-  .kura_tm_contact .short ul li .list_inner span {
+  .ashu_tm_contact .short ul li .list_inner span {
     @apply small:text-[16px];
   }
-  .kura_tm_copyright .copyright_inner {
+  .ashu_tm_copyright .copyright_inner {
     @apply small:flex-col;
   }
-  .kura_tm_copyright .copyright_inner .text {
+  .ashu_tm_copyright .copyright_inner .text {
     @apply small:mb-[10px];
   }
 }

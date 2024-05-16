@@ -7,6 +7,8 @@ import '@css/plugins.css';
 import { Mulish, Poppins } from 'next/font/google';
 import './globals.css';
 import State from '/context/context';
+import Head from 'next/head';
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 /** google fonts */
 const poppins = Poppins({
@@ -33,10 +35,29 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+        {/* Google tag (gtag.js) */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-E88QKKYNJ6"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-E88QKKYNJ6');
+            `,
+          }}
+        />
+      </Head>
+
       <body className={fontFamily}>
         <Preloader />
         <State>{children}</State>
       </body>
+      <GoogleAnalytics gaId="G-E88QKKYNJ6" />
     </html>
   );
 }

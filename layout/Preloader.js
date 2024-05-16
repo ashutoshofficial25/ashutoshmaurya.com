@@ -1,10 +1,10 @@
-"use client";
-import { kuraUtilit } from "@/utility";
-import { useEffect } from "react";
+'use client';
+import { ashuUtilit } from '@/utility';
+import { useEffect } from 'react';
 
 const Preloader = () => {
   useEffect(() => {
-    kuraUtilit.preloader();
+    ashuUtilit.preloader();
   }, []);
 
   return (

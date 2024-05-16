@@ -3,7 +3,7 @@ import SwiperCore, {
   EffectFade,
   Navigation,
   Pagination,
-} from "swiper";
+} from 'swiper';
 SwiperCore.use([Pagination, Navigation, EffectFade, Autoplay]);
 
 const props = (currentCls, totalCls, allCls) => {
@@ -17,34 +17,34 @@ const props = (currentCls, totalCls, allCls) => {
     },
 
     navigation: {
-      nextEl: ".my_next",
-      prevEl: ".my_prev",
+      nextEl: '.my_next',
+      prevEl: '.my_prev',
     },
 
     pagination: {
-      el: ".kura_tm_swiper_progress",
-      type: "custom", // progressbar
+      el: '.ashu_tm_swiper_progress',
+      type: 'custom', // progressbar
       renderCustom: function (swiper, current, total) {
         // progress animation
         var scale, translateX;
-        var progressDOM = document.querySelector(".kura_tm_swiper_progress");
-        if (progressDOM.classList.contains("fill")) {
-          translateX = "0px";
+        var progressDOM = document.querySelector('.ashu_tm_swiper_progress');
+        if (progressDOM.classList.contains('fill')) {
+          translateX = '0px';
           scale = parseInt((current / total) * 100) / 100;
         } else {
           scale = parseInt((1 / total) * 100) / 100;
           translateX =
-            ((current - 1) * parseInt((100 / total) * 100)) / 100 + "px";
+            ((current - 1) * parseInt((100 / total) * 100)) / 100 + 'px';
         }
         document.querySelector(
           `.${allCls} span`
         ).style.transform = `translate3d(${translateX},0px,0px) scaleX(${scale}) scaleY(1)`;
 
         if (current < 10) {
-          current = "0" + current;
+          current = '0' + current;
         }
         if (total < 10) {
-          total = "0" + total;
+          total = '0' + total;
         }
         document.querySelector(`.${currentCls}`).innerHTML = current;
         document.querySelector(`.${totalCls}`).innerHTML = total;
@@ -63,8 +63,8 @@ const props = (currentCls, totalCls, allCls) => {
   };
 };
 
-export const portfolioSlider = props("portfolio_cureent", "total", "all");
-export const newsSlider = props("currentNews", "totalNews", "allNews");
+export const portfolioSlider = props('portfolio_cureent', 'total', 'all');
+export const newsSlider = props('currentNews', 'totalNews', 'allNews');
 
 export const testimonialSlider = {
   slidesPerView: 1,

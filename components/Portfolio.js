@@ -1,25 +1,23 @@
 'use client';
 import { context } from '@/context/context';
-import { kuraUtilit } from '@/utility';
+import { ashuUtilit } from '@/utility';
 import { portfolioSlider } from '@/utility/sliderProps';
 import { useContext, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 const Portfolio = () => {
   useEffect(() => {
-    kuraUtilit.dataImage();
-    kuraUtilit.imgToSVG();
+    ashuUtilit.dataImage();
+    ashuUtilit.imgToSVG();
   }, []);
-
-  const { setPortfolioModal, modalToggle } = useContext(context);
 
   return (
     <div
       className="ashu_tm_section w-full h-auto clear-both float-left"
       id="portfolio"
     >
-      <div className="kura_tm_portfolio w-full h-auto clear-both float-left px-0 pt-[140px] pb-[138px]">
+      <div className="ashu_tm_portfolio w-full h-auto clear-both float-left px-0 pt-[140px] pb-[138px]">
         <div className="container">
-          <div className="kura_tm_main_title w-full h-auto clear-both float-left">
+          <div className="ashu_tm_main_title w-full h-auto clear-both float-left">
             <span className="inline-block mb-[10px] text-secondary-color font-poppins font-medium">
               Portfolio
             </span>
@@ -58,7 +56,7 @@ const Portfolio = () => {
                     </div>
                     <a
                       target="_blank"
-                      className="kura_tm_full_link absolute inset-0 z-[5] popup-vimeo"
+                      className="ashu_tm_full_link absolute inset-0 z-[5] popup-vimeo"
                       href="https://blogging-hub.vercel.app/"
                     />
                   </div>
@@ -89,8 +87,9 @@ const Portfolio = () => {
                       <span className="font-poppins">Davinci board menu</span>
                     </div>
                     <a
-                      className="kura_tm_full_link absolute inset-0 z-[5] popup-youtube"
-                      href="https://www.youtube.com/watch?v=7e90gBu4pas"
+                      target="_blank"
+                      className="ashu_tm_full_link absolute inset-0 z-[5] popup-youtube"
+                      href="https://davinci-menu-react.vercel.app/"
                     />
                   </div>
                 </SwiperSlide>
@@ -114,14 +113,15 @@ const Portfolio = () => {
                       alt=""
                     />
                     <div className="details absolute z-[2] bottom-[41px] left-[49px] transition-all duration-300">
-                      <h3 className="text-[20px] font-bold mb-[4px]">
-                        Leo Dandora
-                      </h3>
-                      <span className="font-poppins">Soundcloud</span>
+                      <h3 className="text-[20px] font-bold mb-[4px]">Cordly</h3>
+                      <span className="font-poppins">
+                        Automate Trading View Alerts
+                      </span>
                     </div>
                     <a
-                      className="kura_tm_full_link absolute inset-0 z-[5] soundcloude_link mfp-iframe audio"
-                      href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/471954807&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                      target="_blank"
+                      className="ashu_tm_full_link absolute inset-0 z-[5] soundcloude_link mfp-iframe audio"
+                      href="https://www.cordly.io/"
                     />
                   </div>
                 </SwiperSlide>
@@ -146,18 +146,17 @@ const Portfolio = () => {
                     />
                     <div className="details absolute z-[2] bottom-[41px] left-[49px] transition-all duration-300">
                       <h3 className="text-[20px] font-bold mb-[4px]">
-                        Folio Grasia
+                        Talentsuite
                       </h3>
-                      <span className="font-poppins">Detail</span>
+                      <span className="font-poppins">
+                        Professional service to investigate and develop your
+                        talents{' '}
+                      </span>
                     </div>
                     <a
-                      className="kura_tm_full_link absolute inset-0 z-[5] portfolio_popup"
-                      href="#"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        modalToggle(true);
-                        setPortfolioModal('item');
-                      }}
+                      target="_blank"
+                      className="ashu_tm_full_link absolute inset-0 z-[5] portfolio_popup"
+                      href="https://test.mytalentsuite.nl/"
                     />
                   </div>
                 </SwiperSlide>
@@ -182,13 +181,16 @@ const Portfolio = () => {
                     />
                     <div className="details absolute z-[2] bottom-[41px] left-[49px] transition-all duration-300">
                       <h3 className="text-[20px] font-bold mb-[4px]">
-                        Viva Mercury
+                        Arispay
                       </h3>
-                      <span className="font-poppins">Image</span>
+                      <span className="font-poppins">
+                        NEW ERA OF DIGITAL FINANCE
+                      </span>
                     </div>
                     <a
-                      className="kura_tm_full_link absolute inset-0 z-[5] zoom"
-                      href="assets/img/portfolio/5.jpg"
+                      target="_blank"
+                      className="ashu_tm_full_link absolute inset-0 z-[5] zoom"
+                      href="https://arispay.io/"
                     />
                   </div>
                 </SwiperSlide>
@@ -213,18 +215,21 @@ const Portfolio = () => {
                     />
                     <div className="details absolute z-[2] bottom-[41px] left-[49px] transition-all duration-300">
                       <h3 className="text-[20px] font-bold mb-[4px]">
-                        Santa Onera
+                        Click & Collect
                       </h3>
-                      <span className="font-poppins">Image</span>
+                      <span className="font-poppins">
+                        E-commerce (myntra-clone)
+                      </span>
                     </div>
                     <a
-                      className="kura_tm_full_link absolute inset-0 z-[5] zoom"
-                      href="assets/img/portfolio/6.jpg"
+                      className="ashu_tm_full_link absolute inset-0 z-[5] zoom"
+                      target="_blank"
+                      href="https://click-n-collect-ecommerce.vercel.app/"
                     />
                   </div>
                 </SwiperSlide>
               </div>
-              <div className="kura_tm_swiper_progress fill">
+              <div className="ashu_tm_swiper_progress fill">
                 <div className="my_pagination_in">
                   <span className="current portfolio_cureent" />
                   <span className="pagination_progress">

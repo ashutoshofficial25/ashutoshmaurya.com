@@ -1,13 +1,13 @@
-"use client";
-import { context } from "@/context/context";
-import { kuraUtilit } from "@/utility";
-import useClickOutside from "@/utility/useClickOutside";
-import { useContext, useEffect } from "react";
+'use client';
+import { context } from '@/context/context';
+import { ashuUtilit } from '@/utility';
+import useClickOutside from '@/utility/useClickOutside';
+import { useContext, useEffect } from 'react';
 
 const PopContainer = ({ children, nullValue }) => {
   useEffect(() => {
-    kuraUtilit.dataImage();
-    kuraUtilit.imgToSVG();
+    ashuUtilit.dataImage();
+    ashuUtilit.imgToSVG();
   }, []);
 
   const { modalToggle, modal } = useContext(context);
@@ -16,7 +16,7 @@ const PopContainer = ({ children, nullValue }) => {
     nullValue(null);
   });
   return (
-    <div className={`kura_tm_modalbox ${modal ? "opened" : ""}`}>
+    <div className={`ashu_tm_modalbox ${modal ? 'opened' : ''}`}>
       <div className="box_inner" ref={domNode}>
         <div className="close">
           <a

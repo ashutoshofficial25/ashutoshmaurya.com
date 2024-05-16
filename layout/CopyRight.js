@@ -1,7 +1,7 @@
 const CopyRight = () => {
   return (
     <div className="ashu_tm_section w-full h-auto clear-both float-left">
-      <div className="kura_tm_copyright w-full h-auto clear-both float-left bg-black px-0 pt-[28px] pb-[32px] text-center">
+      <div className="ashu_tm_copyright w-full h-auto clear-both float-left bg-black px-0 pt-[28px] pb-[32px] text-center">
         <div className="container">
           <div
             className="copyright_inner w-full h-auto clear-both float-left flex items-center justify-between wow fadeInUp"

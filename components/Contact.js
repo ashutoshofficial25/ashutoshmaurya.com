@@ -4,9 +4,9 @@ const Contact = () => {
       className="ashu_tm_section w-full h-auto clear-both float-left"
       id="contact"
     >
-      <div className="kura_tm_contact w-full h-auto clear-both float-left bg-[#f9f9f9] px-0 pt-[140px] pb-[119px]">
+      <div className="ashu_tm_contact w-full h-auto clear-both float-left bg-[#f9f9f9] px-0 pt-[140px] pb-[119px]">
         <div className="container">
-          <div className="kura_tm_main_title w-full h-auto clear-both float-left">
+          <div className="ashu_tm_main_title w-full h-auto clear-both float-left">
             <span className="inline-block mb-[10px] text-secondary-color font-poppins font-medium">
               Contact
             </span>
@@ -45,9 +45,13 @@ const Contact = () => {
                         src="assets/img/svg/phone.svg"
                         alt=""
                       />
-                      <span className="text-[18px] text-black font-poppins">
+
+                      <a
+                        href="tel:+91 9695734655"
+                        className="text-[18px] text-white  font-poppins"
+                      >
                         +91 9695734655
-                      </span>
+                      </a>
                     </div>
                   </li>
                   <li className="mb-[23px] w-full float-left">
@@ -57,9 +61,12 @@ const Contact = () => {
                         src="assets/img/svg/mail.svg"
                         alt=""
                       />
-                      <span className="text-[18px] text-black font-poppins">
+                      <a
+                        href="mailto:ashutoshm9695@gmail.com"
+                        className="text-[18px] text-white font-poppins"
+                      >
                         ashutoshm9695@gmail.com
-                      </span>
+                      </a>
                     </div>
                   </li>
                   <li className="mb-[23px] w-full float-left">
@@ -69,9 +76,12 @@ const Contact = () => {
                         src="assets/img/svg/globe.svg"
                         alt=""
                       />
-                      <span className="text-[18px] text-black font-poppins">
-                        www.ashu.thebytescode.in
-                      </span>
+                      <a
+                        href="https://ashutosh.thebytescode.in/"
+                        className="text-[18px] text-white font-poppins"
+                      >
+                        ashutosh.thebytescode.in/
+                      </a>
                     </div>
                   </li>
                 </ul>
@@ -113,7 +123,7 @@ const Contact = () => {
                       defaultValue={''}
                     />
                   </div>
-                  <div className="kura_tm_button" data-position="left">
+                  <div className="ashu_tm_button" data-position="left">
                     <a id="send_message" href="#">
                       <span>Submit</span>
                       <img
