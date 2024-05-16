@@ -4,9 +4,9 @@ const Contact = () => {
       className="ashu_tm_section w-full h-auto clear-both float-left"
       id="contact"
     >
-      <div className="kura_tm_contact w-full h-auto clear-both float-left bg-[#f9f9f9] px-0 pt-[140px] pb-[119px]">
+      <div className="ashu_tm_contact w-full h-auto clear-both float-left bg-[#f9f9f9] px-0 pt-[140px] pb-[119px]">
         <div className="container">
-          <div className="kura_tm_main_title w-full h-auto clear-both float-left">
+          <div className="ashu_tm_main_title w-full h-auto clear-both float-left">
             <span className="inline-block mb-[10px] text-secondary-color font-poppins font-medium">
               Contact
             </span>
@@ -123,7 +123,7 @@ const Contact = () => {
                       defaultValue={''}
                     />
                   </div>
-                  <div className="kura_tm_button" data-position="left">
+                  <div className="ashu_tm_button" data-position="left">
                     <a id="send_message" href="#">
                       <span>Submit</span>
                       <img

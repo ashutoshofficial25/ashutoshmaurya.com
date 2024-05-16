@@ -1,4 +1,4 @@
-export const kuraUtilit = {
+export const ashuUtilit = {
   dataImage() {
     let d = document.querySelectorAll('[data-img-url');
     for (let i = 0; i < d.length; i++) {
@@ -79,7 +79,7 @@ export const kuraUtilit = {
   customCursor() {
     var myCursor = document.querySelectorAll('.mouse-cursor'),
       hamburger = document.querySelector('.hamburger'),
-      kura_tm_topbar = document.querySelector('.kura_tm_topbar '),
+      ashu_tm_topbar = document.querySelector('.ashu_tm_topbar '),
       pointer = document.querySelector('.cursor-pointer'),
       e = document.querySelector('.cursor-inner'),
       t = document.querySelector('.cursor-outer');
@@ -110,7 +110,7 @@ export const kuraUtilit = {
         }),
           document.body.addEventListener(
             'mouseenter',
-            // "a,.kura_tm_topbar .trigger, .cursor-pointer",
+            // "a,.ashu_tm_topbar .trigger, .cursor-pointer",
             function () {
               let a = document.querySelectorAll('a');
               e.classList.add('cursor-inner'), t.classList.add('cursor-outer');
@@ -121,7 +121,7 @@ export const kuraUtilit = {
               }
 
               hamburger && mouseEvent(hamburger);
-              kura_tm_topbar && mouseEvent(kura_tm_topbar);
+              ashu_tm_topbar && mouseEvent(ashu_tm_topbar);
               pointer && mouseEvent(pointer);
             }
           ),
@@ -133,7 +133,7 @@ export const kuraUtilit = {
   stickyNav() {
     window.addEventListener('scroll', () => {
       let offset = window.scrollY;
-      const stickys = document.querySelectorAll('.kura_tm_topbar');
+      const stickys = document.querySelectorAll('.ashu_tm_topbar');
       stickys.forEach((sticky) => {
         if (sticky) {
           if (offset > 100) {

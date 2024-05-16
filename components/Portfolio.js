@@ -1,13 +1,13 @@
 'use client';
 import { context } from '@/context/context';
-import { kuraUtilit } from '@/utility';
+import { ashuUtilit } from '@/utility';
 import { portfolioSlider } from '@/utility/sliderProps';
 import { useContext, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 const Portfolio = () => {
   useEffect(() => {
-    kuraUtilit.dataImage();
-    kuraUtilit.imgToSVG();
+    ashuUtilit.dataImage();
+    ashuUtilit.imgToSVG();
   }, []);
 
   return (
@@ -17,7 +17,7 @@ const Portfolio = () => {
     >
       <div className="ashu_tm_portfolio w-full h-auto clear-both float-left px-0 pt-[140px] pb-[138px]">
         <div className="container">
-          <div className="kura_tm_main_title w-full h-auto clear-both float-left">
+          <div className="ashu_tm_main_title w-full h-auto clear-both float-left">
             <span className="inline-block mb-[10px] text-secondary-color font-poppins font-medium">
               Portfolio
             </span>
@@ -56,7 +56,7 @@ const Portfolio = () => {
                     </div>
                     <a
                       target="_blank"
-                      className="kura_tm_full_link absolute inset-0 z-[5] popup-vimeo"
+                      className="ashu_tm_full_link absolute inset-0 z-[5] popup-vimeo"
                       href="https://blogging-hub.vercel.app/"
                     />
                   </div>
@@ -88,7 +88,7 @@ const Portfolio = () => {
                     </div>
                     <a
                       target="_blank"
-                      className="kura_tm_full_link absolute inset-0 z-[5] popup-youtube"
+                      className="ashu_tm_full_link absolute inset-0 z-[5] popup-youtube"
                       href="https://davinci-menu-react.vercel.app/"
                     />
                   </div>
@@ -120,7 +120,7 @@ const Portfolio = () => {
                     </div>
                     <a
                       target="_blank"
-                      className="kura_tm_full_link absolute inset-0 z-[5] soundcloude_link mfp-iframe audio"
+                      className="ashu_tm_full_link absolute inset-0 z-[5] soundcloude_link mfp-iframe audio"
                       href="https://www.cordly.io/"
                     />
                   </div>
@@ -155,7 +155,7 @@ const Portfolio = () => {
                     </div>
                     <a
                       target="_blank"
-                      className="kura_tm_full_link absolute inset-0 z-[5] portfolio_popup"
+                      className="ashu_tm_full_link absolute inset-0 z-[5] portfolio_popup"
                       href="https://test.mytalentsuite.nl/"
                     />
                   </div>
@@ -189,7 +189,7 @@ const Portfolio = () => {
                     </div>
                     <a
                       target="_blank"
-                      className="kura_tm_full_link absolute inset-0 z-[5] zoom"
+                      className="ashu_tm_full_link absolute inset-0 z-[5] zoom"
                       href="https://arispay.io/"
                     />
                   </div>
@@ -222,14 +222,14 @@ const Portfolio = () => {
                       </span>
                     </div>
                     <a
-                      className="kura_tm_full_link absolute inset-0 z-[5] zoom"
+                      className="ashu_tm_full_link absolute inset-0 z-[5] zoom"
                       target="_blank"
                       href="https://click-n-collect-ecommerce.vercel.app/"
                     />
                   </div>
                 </SwiperSlide>
               </div>
-              <div className="kura_tm_swiper_progress fill">
+              <div className="ashu_tm_swiper_progress fill">
                 <div className="my_pagination_in">
                   <span className="current portfolio_cureent" />
                   <span className="pagination_progress">

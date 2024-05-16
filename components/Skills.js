@@ -1,11 +1,11 @@
 'use client';
-import { kuraUtilit } from '@/utility';
+import { ashuUtilit } from '@/utility';
 import { jarallax, jarallaxVideo } from 'jarallax';
 import { useEffect } from 'react';
 
 const Skills = () => {
   useEffect(() => {
-    kuraUtilit.activeSkillProgress();
+    ashuUtilit.activeSkillProgress();
   }, []);
 
   useEffect(() => {
@@ -21,11 +21,11 @@ const Skills = () => {
       className="ashu_tm_section w-full h-auto clear-both float-left"
       id="skills"
     >
-      <div className="kura_tm_skills w-full h-auto clear-both float-left relative px-0 pt-[140px] pb-[150px]">
+      <div className="ashu_tm_skills w-full h-auto clear-both float-left relative px-0 pt-[140px] pb-[150px]">
         <div className="container">
           <div className="skills_inner w-full h-auto clear-both float-left relative z-[3]">
             <div className="left w-[60%] pr-[200px]">
-              <div className="kura_tm_main_title w-full h-auto clear-both float-left">
+              <div className="ashu_tm_main_title w-full h-auto clear-both float-left">
                 <span className="inline-block mb-[10px] text-secondary-color font-poppins font-medium">
                   Skills
                 </span>

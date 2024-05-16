@@ -1,10 +1,10 @@
-"use client";
-import { useState } from "react";
+'use client';
+import { useState } from 'react';
 
 const MobileMenu = ({ dark }) => {
   const [toggle, setToggle] = useState(false);
   return (
-    <div className="kura_tm_mobile_menu w-full h-auto fixed top-0 left-0 hidden z-[10] middle:block">
+    <div className="ashu_tm_mobile_menu w-full h-auto fixed top-0 left-0 hidden z-[10] middle:block">
       <div className="mobile_menu_inner w-full h-auto clear-both float-left bg-white py-[15px] pr-[30px] pl-[40px]">
         <div className="mobile_in w-full h-auto clear-both float-left flex items-center justify-between">
           <div className="logo">
@@ -12,7 +12,7 @@ const MobileMenu = ({ dark }) => {
               <img
                 className="max-w-[80px] max-h-[50px]"
                 src={
-                  dark ? "assets/img/logo/logo.png" : "assets/img/logo/dark.png"
+                  dark ? 'assets/img/logo/logo.png' : 'assets/img/logo/dark.png'
                 }
                 alt=""
               />
@@ -29,7 +29,7 @@ const MobileMenu = ({ dark }) => {
       </div>
       <div
         className="dropdown w-full h-auto clear-both float-left bg-white hidden"
-        style={{ display: toggle ? "block" : "none" }}
+        style={{ display: toggle ? 'block' : 'none' }}
       >
         <div className="dropdown_inner w-full h-auto clear-both float-left py-[25px] px-[40px]">
           <ul className="anchor_nav">

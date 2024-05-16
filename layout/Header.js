@@ -1,21 +1,21 @@
 'use client';
-import { kuraUtilit } from '@/utility';
+import { ashuUtilit } from '@/utility';
 import { useEffect, useState } from 'react';
 
 const Header = ({ dark }) => {
   const [isToggled, setToggled] = useState(false);
   const toggleTrueFalse = () => {
     setToggled(!isToggled);
-    kuraUtilit.openNav(!isToggled);
+    ashuUtilit.openNav(!isToggled);
   };
 
   useEffect(() => {
-    kuraUtilit.audioSoundAndOpen();
-    kuraUtilit.stickyNav();
-    kuraUtilit.scrollToActiveNav();
+    ashuUtilit.audioSoundAndOpen();
+    ashuUtilit.stickyNav();
+    ashuUtilit.scrollToActiveNav();
   });
   return (
-    <div className="kura_tm_topbar fixed top-0 left-0 right-0 z-[10] translate-y-[-100%] transition-all duration-[400ms]">
+    <div className="ashu_tm_topbar fixed top-0 left-0 right-0 z-[10] translate-y-[-100%] transition-all duration-[400ms]">
       <div className="wrapper w-full h-auto clear-both float-left transition-all duration-300">
         <div className="topbar_inner w-full h-auto clear-both flex items-center justify-between py-[30px] pr-[37px] pl-[50px] transition-all duration-300">
           <div className="logo">

@@ -4,12 +4,12 @@ const Priceing = () => {
       className="ashu_tm_section w-full h-auto clear-both float-left"
       id="price"
     >
-      <div className="kura_tm_pricing w-full h-auto clear-both float-left px-0 pt-[80px] pb-[150px] bg-[#f9f9f9]">
+      <div className="ashu_tm_pricing w-full h-auto clear-both float-left px-0 pt-[80px] pb-[150px] bg-[#f9f9f9]">
         <div className="container">
           <div className="pricing_inner w-full h-auto clear-both flex">
             <div className="left w-1/2 pr-[100px]">
-              <div className="kura_tm_sticky_section">
-                <div className="kura_tm_main_title w-full h-auto clear-both float-left mt-[58px]">
+              <div className="ashu_tm_sticky_section">
+                <div className="ashu_tm_main_title w-full h-auto clear-both float-left mt-[58px]">
                   <span className="inline-block mb-[10px] text-secondary-color font-poppins font-medium">
                     Tech Stack
                   </span>
@@ -25,7 +25,7 @@ const Priceing = () => {
               </div>
             </div>
             <div className="right w-1/2 pl-[100px]">
-              <div className="kura_tm_sticky_section">
+              <div className="ashu_tm_sticky_section">
                 <ul className="mt-[58px]">
                   <li
                     className="w-full float-left mb-[30px] wow fadeInUp"

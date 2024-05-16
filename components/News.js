@@ -1,6 +1,6 @@
 'use client';
 import { context } from '@/context/context';
-import { kuraUtilit } from '@/utility';
+import { ashuUtilit } from '@/utility';
 import { newsSlider } from '@/utility/sliderProps';
 import { useContext, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -58,8 +58,8 @@ const blogData = [
 
 const News = () => {
   useEffect(() => {
-    kuraUtilit.dataImage();
-    kuraUtilit.imgToSVG();
+    ashuUtilit.dataImage();
+    ashuUtilit.imgToSVG();
   }, []);
 
   const { modalToggle, setBlogModal } = useContext(context);
@@ -69,9 +69,9 @@ const News = () => {
       className="ashu_tm_section w-full h-auto clear-both float-left"
       id="news"
     >
-      <div className="kura_tm_news w-full h-auto clear-both float-left py-[140px] px-0">
+      <div className="ashu_tm_news w-full h-auto clear-both float-left py-[140px] px-0">
         <div className="container">
-          <div className="kura_tm_main_title w-full h-auto clear-both float-left">
+          <div className="ashu_tm_main_title w-full h-auto clear-both float-left">
             <span className="inline-block mb-[10px] text-secondary-color font-poppins font-medium">
               News
             </span>
@@ -110,7 +110,7 @@ const News = () => {
                       <h3 className="text-[20px] font-bold">{blog.title}</h3>
                     </div>
                     <a
-                      className="kura_tm_full_link absolute inset-0 z-[5]"
+                      className="ashu_tm_full_link absolute inset-0 z-[5]"
                       href="#"
                       onClick={(e) => {
                         e.preventDefault();
@@ -121,7 +121,7 @@ const News = () => {
                   </div>
                 </SwiperSlide>
               ))}
-              <div className="kura_tm_swiper_progress fill">
+              <div className="ashu_tm_swiper_progress fill">
                 <div className="my_pagination_in">
                   <span className="current currentNews" />
                   <span className="pagination_progress">

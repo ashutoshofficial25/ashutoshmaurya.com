@@ -1,9 +1,9 @@
-"use client";
-import { kuraUtilit } from "@/utility";
-import { Fragment, useEffect } from "react";
+'use client';
+import { ashuUtilit } from '@/utility';
+import { Fragment, useEffect } from 'react';
 const Cursor = () => {
   useEffect(() => {
-    kuraUtilit.customCursor();
+    ashuUtilit.customCursor();
   }, []);
 
   return (

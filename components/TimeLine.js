@@ -4,9 +4,9 @@ const TimeLine = () => {
       className="ashu_tm_section w-full h-auto clear-both float-left"
       id="timeline"
     >
-      <div className="kura_tm_timeline w-full h-auto clear-both float-left px-0 pt-[140px] pb-[113px]">
+      <div className="ashu_tm_timeline w-full h-auto clear-both float-left px-0 pt-[140px] pb-[113px]">
         <div className="container">
-          <div className="kura_tm_main_title w-full h-auto clear-both float-left">
+          <div className="ashu_tm_main_title w-full h-auto clear-both float-left">
             <span className="inline-block mb-[10px] text-secondary-color font-poppins font-medium">
               Timeline
             </span>
