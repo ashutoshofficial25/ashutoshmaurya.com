@@ -45,9 +45,13 @@ const Contact = () => {
                         src="assets/img/svg/phone.svg"
                         alt=""
                       />
-                      <span className="text-[18px] text-black font-poppins">
+
+                      <a
+                        href="tel:+91 9695734655"
+                        className="text-[18px] text-white  font-poppins"
+                      >
                         +91 9695734655
-                      </span>
+                      </a>
                     </div>
                   </li>
                   <li className="mb-[23px] w-full float-left">
@@ -57,9 +61,12 @@ const Contact = () => {
                         src="assets/img/svg/mail.svg"
                         alt=""
                       />
-                      <span className="text-[18px] text-black font-poppins">
+                      <a
+                        href="mailto:ashutoshm9695@gmail.com"
+                        className="text-[18px] text-white font-poppins"
+                      >
                         ashutoshm9695@gmail.com
-                      </span>
+                      </a>
                     </div>
                   </li>
                   <li className="mb-[23px] w-full float-left">
@@ -69,9 +76,12 @@ const Contact = () => {
                         src="assets/img/svg/globe.svg"
                         alt=""
                       />
-                      <span className="text-[18px] text-black font-poppins">
-                        www.ashu.thebytescode.in
-                      </span>
+                      <a
+                        href="https://ashutosh.thebytescode.in/"
+                        className="text-[18px] text-white font-poppins"
+                      >
+                        ashutosh.thebytescode.in/
+                      </a>
                     </div>
                   </li>
                 </ul>

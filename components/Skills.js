@@ -12,7 +12,7 @@ const Skills = () => {
     jarallaxVideo();
     jarallax(document.querySelectorAll('.jarallax'), {
       speed: 0.2,
-      videoSrc: 'https://www.youtube.com/watch?v=7e90gBu4pas',
+      imgSrc: 'assets/img/skill.jepg',
     });
   });
 
@@ -62,7 +62,7 @@ const Skills = () => {
                 <div className="progress_inner" data-value={80}>
                   <span>
                     <span className="label">JavaScript</span>
-                    <span className="number">80%</span>
+                    <span className="number">85%</span>
                   </span>
                   <div className="background">
                     <div className="bar">
@@ -85,7 +85,7 @@ const Skills = () => {
                 <div className="progress_inner" data-value={90}>
                   <span>
                     <span className="label">ReactJS &amp; NextJS </span>
-                    <span className="number">90%</span>
+                    <span className="number">80%</span>
                   </span>
                   <div className="background">
                     <div className="bar">
@@ -99,7 +99,7 @@ const Skills = () => {
                     <span className="label">
                       NodeJS &amp; ExpressJS &amp; NestJs{' '}
                     </span>
-                    <span className="number">90%</span>
+                    <span className="number">80%</span>
                   </span>
                   <div className="background">
                     <div className="bar">
@@ -118,12 +118,12 @@ const Skills = () => {
               <div
                 className="my_video absolute inset-0 jarallax"
                 data-speed={0}
-                data-jarallax-video="https://www.youtube.com/watch?v=7e90gBu4pas"
+                data-img-url="assets/img/skill.jpeg"
               />
               <div
                 className="my_image absolute inset-0 bg-no-repeat bg-cover bg-center jarallax"
                 data-speed={0}
-                data-img-url="assets/img/portfolio/2.jpg"
+                data-img-url="assets/img/skill.jpeg"
               />
             </div>
           </div>
