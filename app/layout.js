@@ -8,6 +8,7 @@ import { Mulish, Poppins } from 'next/font/google';
 import './globals.css';
 import State from '/context/context';
 import Head from 'next/head';
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 /** google fonts */
 const poppins = Poppins({
@@ -56,6 +57,7 @@ export default function RootLayout({ children }) {
         <Preloader />
         <State>{children}</State>
       </body>
+      <GoogleAnalytics gaId="G-E88QKKYNJ6" />
     </html>
   );
 }

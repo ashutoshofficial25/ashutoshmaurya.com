@@ -10,6 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/third-parties": "^14.2.3",
     "autoprefixer": "10.4.16",
     "concurrently": "^8.2.1",
     "jarallax": "^2.1.4",
