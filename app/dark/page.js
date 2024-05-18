@@ -48,7 +48,7 @@ const IndexDark = () => {
       <Priceing />
       {/* /PRICING */}
       {/* NEWS */}
-      <News />
+      {/* <News /> */}
       {/* /NEWS */}
       {/* CONTACT */}
       <Contact />

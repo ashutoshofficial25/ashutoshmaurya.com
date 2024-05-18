@@ -47,7 +47,7 @@ const Index = () => {
       <Priceing />
       {/* /PRICING */}
       {/* NEWS */}
-      <News />
+      {/* <News /> */}
       {/* /NEWS */}
       {/* CONTACT */}
       <Contact />

@@ -102,8 +102,8 @@ const Portfolio = () => {
                         alt=""
                       />
                       <div
-                        className="main absolute inset-0 bg-no-repeat bg-cover bg-center rounded-[10px]"
-                        data-img-url="assets/img/portfolio/3.jpg"
+                        className="main absolute inset-0 bg-no-repeat bg-cover bg-cover rounded-[10px]"
+                        data-img-url="assets/img/portfolio/cordly.png"
                       />
                     </div>
                     <div className="overlay absolute inset-[10px] bg-white rounded-[10px] z-[1] transition-all duration-300" />
@@ -135,7 +135,7 @@ const Portfolio = () => {
                       />
                       <div
                         className="main absolute inset-0 bg-no-repeat bg-cover bg-center rounded-[10px]"
-                        data-img-url="assets/img/portfolio/4.jpg"
+                        data-img-url="assets/img/portfolio/talentsuite.png"
                       />
                     </div>
                     <div className="overlay absolute inset-[10px] bg-white rounded-[10px] z-[1] transition-all duration-300" />
@@ -170,7 +170,7 @@ const Portfolio = () => {
                       />
                       <div
                         className="main absolute inset-0 bg-no-repeat bg-cover bg-center rounded-[10px]"
-                        data-img-url="assets/img/portfolio/5.jpg"
+                        data-img-url="assets/img/portfolio/arispay.jpg"
                       />
                     </div>
                     <div className="overlay absolute inset-[10px] bg-white rounded-[10px] z-[1] transition-all duration-300" />
@@ -204,7 +204,7 @@ const Portfolio = () => {
                       />
                       <div
                         className="main absolute inset-0 bg-no-repeat bg-cover bg-center rounded-[10px]"
-                        data-img-url="assets/img/portfolio/6.jpg"
+                        data-img-url="assets/img/portfolio/cnc.png"
                       />
                     </div>
                     <div className="overlay absolute inset-[10px] bg-white rounded-[10px] z-[1] transition-all duration-300" />
