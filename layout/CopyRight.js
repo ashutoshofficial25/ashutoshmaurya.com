@@ -15,7 +15,11 @@ const CopyRight = () => {
             <div className="social">
               <ul>
                 <li className="mr-[20px] inline-block">
-                  <a className="text-white" href="#">
+                  <a
+                    className="text-white"
+                    href="https://www.linkedin.com/in/ashutosh-maurya-a996931a5/"
+                    target="_blank"
+                  >
                     <img
                       className="svg"
                       src="assets/img/svg/social/linkedin.svg"
@@ -27,6 +31,7 @@ const CopyRight = () => {
                 <li className="mr-[20px] inline-block">
                   <a
                     className="text-white"
+                    target="_blank"
                     href="https://github.com/ashutoshofficial25"
                   >
                     <img
