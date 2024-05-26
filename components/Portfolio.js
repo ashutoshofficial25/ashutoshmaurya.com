@@ -170,7 +170,7 @@ const Portfolio = () => {
                       />
                       <div
                         className="main absolute inset-0 bg-no-repeat bg-cover bg-center rounded-[10px]"
-                        data-img-url="assets/img/portfolio/arispay.jpg"
+                        data-img-url="assets/img/portfolio/arispay.png"
                       />
                     </div>
                     <div className="overlay absolute inset-[10px] bg-white rounded-[10px] z-[1] transition-all duration-300" />

@@ -18,13 +18,43 @@ const CopyRight = () => {
                   <a className="text-white" href="#">
                     <img
                       className="svg"
+                      src="assets/img/svg/social/linkedin.svg"
+                      alt=""
+                    />
+                  </a>
+                </li>
+
+                <li className="mr-[20px] inline-block">
+                  <a
+                    className="text-white"
+                    href="https://github.com/ashutoshofficial25"
+                  >
+                    <img
+                      className="svg"
+                      src="assets/img/svg/social/github.svg"
+                      alt=""
+                    />
+                  </a>
+                </li>
+                <li className="mr-[20px] inline-block">
+                  <a
+                    className="text-white"
+                    href="https://www.facebook.com/ashutosh.maurya.5074"
+                    target="_blank"
+                  >
+                    <img
+                      className="svg"
                       src="assets/img/svg/social/facebook.svg"
                       alt=""
                     />
                   </a>
                 </li>
                 <li className="mr-[20px] inline-block">
-                  <a className="text-white" href="#">
+                  <a
+                    className="text-white"
+                    href="https://x.com/ashutosh25_03"
+                    target="_blank"
+                  >
                     <img
                       className="svg"
                       src="assets/img/svg/social/twitter.svg"
@@ -33,7 +63,11 @@ const CopyRight = () => {
                   </a>
                 </li>
                 <li className="mr-[20px] inline-block">
-                  <a className="text-white" href="#">
+                  <a
+                    className="text-white"
+                    href="https://www.instagram.com/ashutosh_official_25/"
+                    target="_blank"
+                  >
                     <img
                       className="svg"
                       src="assets/img/svg/social/instagram.svg"
@@ -41,24 +75,7 @@ const CopyRight = () => {
                     />
                   </a>
                 </li>
-                <li className="mr-[20px] inline-block">
-                  <a className="text-white" href="#">
-                    <img
-                      className="svg"
-                      src="assets/img/svg/social/dribbble.svg"
-                      alt=""
-                    />
-                  </a>
-                </li>
-                <li className="inline-block">
-                  <a className="text-white" href="#">
-                    <img
-                      className="svg"
-                      src="assets/img/svg/social/tik-tok.svg"
-                      alt=""
-                    />
-                  </a>
-                </li>
+
                 {/* If you want to change or add any svg icons you can download here for free www.flaticon.com */}
               </ul>
             </div>

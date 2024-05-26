@@ -73,14 +73,14 @@ const Header = ({ dark }) => {
                     Price
                   </a>
                 </li>
-                <li className="mr-[20px] inline-block opacity-0 invisible relative left-[10px] transition-all duration-300">
+                {/* <li className="mr-[20px] inline-block opacity-0 invisible relative left-[10px] transition-all duration-300">
                   <a
                     className="text-black font-poppins transition-all duration-300"
                     href="#news"
                   >
                     News
                   </a>
-                </li>
+                </li> */}
                 <li className="inline-block opacity-0 invisible relative left-[10px] transition-all duration-300">
                   <a
                     className="text-black font-poppins transition-all duration-300"
