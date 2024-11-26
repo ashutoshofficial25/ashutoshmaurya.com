@@ -34,7 +34,7 @@ const Contact = () => {
                         alt=""
                       />
                       <span className="text-[18px] text-black font-poppins">
-                        22/234, Vastu Khand, Lucknow, India
+                        B4 - 404, Amrapali Leisure Park, Gr. Noida, India
                       </span>
                     </div>
                   </li>
@@ -47,10 +47,10 @@ const Contact = () => {
                       />
 
                       <a
-                        href="tel:+91 9695734655"
+                        href="tel:+91 8400491708"
                         className="text-[18px] text-white  font-poppins"
                       >
-                        +91 9695734655
+                        +91 8400491708
                       </a>
                     </div>
                   </li>
@@ -120,7 +120,7 @@ const Contact = () => {
                     <textarea
                       id="message"
                       placeholder="Message"
-                      defaultValue={''}
+                      defaultValue={""}
                     />
                   </div>
                   <div className="ashu_tm_button" data-position="left">
