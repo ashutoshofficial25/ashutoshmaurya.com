@@ -1,6 +1,6 @@
-import { context } from '@/context/context';
-import { useContext } from 'react';
-import PopContainer from './PopupContainer';
+import { context } from "@/context/context";
+import { useContext } from "react";
+import PopContainer from "./PopupContainer";
 const BlogPopup = () => {
   const { setBlogModal, blogModal } = useContext(context);
   return (

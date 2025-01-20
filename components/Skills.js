@@ -1,7 +1,7 @@
-'use client';
-import { ashuUtilit } from '@/utility';
-import { jarallax, jarallaxVideo } from 'jarallax';
-import { useEffect } from 'react';
+"use client";
+import { ashuUtilit } from "@/utility";
+import { jarallax, jarallaxVideo } from "jarallax";
+import { useEffect } from "react";
 
 const Skills = () => {
   useEffect(() => {
@@ -10,9 +10,9 @@ const Skills = () => {
 
   useEffect(() => {
     jarallaxVideo();
-    jarallax(document.querySelectorAll('.jarallax'), {
+    jarallax(document.querySelectorAll(".jarallax"), {
       speed: 0.2,
-      imgSrc: 'assets/img/skill.jepg',
+      imgSrc: "assets/img/skill.jepg",
     });
   });
 
@@ -38,9 +38,9 @@ const Skills = () => {
                 data-wow-duration=".7s"
               >
                 <p className="text-[#bbb]">
-                  For more than 2.5 years, I've been deeply immersed in modern
-                  web development, mastering cutting-edge programming languages
-                  for both web and blockchain applications.
+                  For more than 3 years, I've been deeply immersed in modern web
+                  development, mastering cutting-edge programming languages for
+                  both web and blockchain applications.
                 </p>
               </div>
               <div
@@ -97,7 +97,7 @@ const Skills = () => {
                 <div className="progress_inner" data-value={90}>
                   <span>
                     <span className="label">
-                      NodeJS &amp; ExpressJS &amp; NestJs{' '}
+                      NodeJS &amp; ExpressJS &amp; NestJs{" "}
                     </span>
                     <span className="number">80%</span>
                   </span>
@@ -113,18 +113,20 @@ const Skills = () => {
               className="right w-[40%] absolute right-0 top-0 bottom-[-220px] overflow-hidden"
               data-background-style="image"
             >
-              {' '}
+              {" "}
               {/* Background Styles: "video" and "image" // Also you can use any youtube, vimeo, and local videos */}
-              <div
-                className="my_video absolute inset-0 jarallax"
+              {/* <div
+                className="my_video absolute inset-2 jarallax"
                 data-speed={0}
-                data-img-url="assets/img/skill.jpeg"
-              />
-              <div
-                className="my_image absolute inset-0 bg-no-repeat bg-cover bg-center jarallax"
-                data-speed={0}
-                data-img-url="assets/img/skill.jpeg"
-              />
+                data-img-url="assets/img/skills.jpg"
+              /> */}
+              <div style={containerStyle}>
+                <img
+                  src="assets/img/skills.jpg"
+                  alt="Skills"
+                  style={imgStyle}
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -133,3 +135,20 @@ const Skills = () => {
   );
 };
 export default Skills;
+
+const containerStyle = {
+  position: "relative",
+  backgroundColor: "rgba(0, 0, 0, 0.5)", // Background color with transparency
+  backgroundImage: "url(assets/img/skills.jpg)", // Background image
+  backgroundPosition: "center",
+  backgroundSize: "cover",
+  height: "100vh", // Set height as needed
+};
+
+const imgStyle = {
+  width: "100%",
+  height: "100%",
+  objectFit: "cover",
+  position: "absolute",
+  inset: "0",
+};
