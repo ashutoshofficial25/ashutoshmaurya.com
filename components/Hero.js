@@ -11,7 +11,7 @@ const Hero = () => {
     >
       <div className="ashu_tm_hero w-full min-h-[100vh] float-left clear-both bg-[#f9f9f9]">
         <div className="container min-h-full">
-          <div className="content w-full min-h-[100vh] flex items-center relative">
+          <div className="content w-full min-h-[100vh]  flex items-center relative">
             <div className="left w-1/2 pr-[50px] relative opacity-0 invisible top-[20px] transition-all duration-[400ms]">
               <span className="name inline-block mb-[16px] text-secondary-color font-poppins font-medium">
                 Ashutosh Maurya

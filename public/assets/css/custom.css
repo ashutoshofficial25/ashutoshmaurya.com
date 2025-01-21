@@ -251,6 +251,9 @@ body.opened .ashu_tm_hero .content .right {
   .ashu_tm_hero .content .right {
     display: none; /* Hide the .right section on small devices */
   }
+  .ashu_tm_hero .content {
+    min-height: auto;
+  }
 }
 body.opened .ashu_tm_hero .content .right .image .main {
   transform: rotate(7deg);
