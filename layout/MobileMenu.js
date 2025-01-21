@@ -1,5 +1,5 @@
-'use client';
-import { useState } from 'react';
+"use client";
+import { useState } from "react";
 
 const MobileMenu = ({ dark }) => {
   const [toggle, setToggle] = useState(false);
@@ -9,13 +9,14 @@ const MobileMenu = ({ dark }) => {
         <div className="mobile_in w-full h-auto clear-both float-left flex items-center justify-between">
           <div className="logo">
             <a href="#">
-              <img
+              {/* <img
                 className="max-w-[80px] max-h-[50px]"
                 src={
                   dark ? 'assets/img/logo/logo.png' : 'assets/img/logo/dark.png'
                 }
                 alt=""
-              />
+              /> */}
+              ASHUTOSH
             </a>
           </div>
           <div className="trigger leading-[0]">
@@ -29,7 +30,7 @@ const MobileMenu = ({ dark }) => {
       </div>
       <div
         className="dropdown w-full h-auto clear-both float-left bg-white hidden"
-        style={{ display: toggle ? 'block' : 'none' }}
+        style={{ display: toggle ? "block" : "none" }}
       >
         <div className="dropdown_inner w-full h-auto clear-both float-left py-[25px] px-[40px]">
           <ul className="anchor_nav">
